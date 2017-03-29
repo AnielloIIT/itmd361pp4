@@ -45,6 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	background-color: gold;
 }
 /*************************************************/
 /* end http://meyerweb.com/eric/tools/css/reset/ */
@@ -69,34 +70,30 @@ body {
   	text-align: center;
 }
 
-
-table {
-    width: 100%;
-    word-break: break-word;
-    font-size: initial;
-    font-family: monospace;
-    tab-size: 4;
-    white-space: pre-wrap;
-    border-spacing: 0px;
-    margin: 0px;
-	border-collapse: collapse;
+h1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 1em;
+	text-align: center;
 }
 
-table, th, td#table {
+
+
+td, th {
+	color: white;
     border: 1px solid black;
     border-collapse: collapse;
 	padding: 1em;
+	background-color: lightblue;
+	border: 5px solid blue;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif, acme;
 	
 }
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-	padding: 1em;
-	
-}
-
- br {
-            display: block; /* makes it have a width */
-            content: ""; /* clears default height */
-            margin-top: 0; /* change this to whatever height you want it */
+ 
+ #wrapper {
+	max-width: 640px;
+	padding: 2em;
+	margin: 0 auto;
 }
